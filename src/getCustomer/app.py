@@ -19,6 +19,7 @@ try:
     user=str(USER),
     passwd=str(PASSWORD),
     db = str(DATABASE)
+    ssl_disabled = True
     )
     mycursor = mydb.cursor()
     print("Database successfully connected")
