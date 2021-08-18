@@ -15,7 +15,8 @@ try:
     host=str(HOST),
     user=str(USER),
     passwd=str(PASSWORD),
-    db = str(DATABASE)
+    db = str(DATABASE),
+    ssl_disabled = True
     )
     mycursor = mydb.cursor()
     print("Database successfully connected")
